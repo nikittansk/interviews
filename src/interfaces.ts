@@ -8,3 +8,9 @@ export interface IInterview {
   contactPhone?: string,
   createdAt: Date
 }
+
+export interface IStage {
+  name: string
+  date: null | Date
+  description: string
+}

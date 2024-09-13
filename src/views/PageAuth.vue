@@ -101,6 +101,3 @@ const submitForm = (): void => {
           class="w-full"
         )
 </template>
-
-<style scoped lang="scss">
-</style>

@@ -21,7 +21,7 @@ onMounted(() => {
 </script>
 
 <template lang="pug">
-  app-progress(v-if="isLoading")
+  app-progress(v-if="isLoading" class="flex align-items-center")
   .container(v-else)
     app-header
     .content
